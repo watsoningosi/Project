@@ -1,0 +1,329 @@
+
+ ol{
+    text-align: start;
+    padding: 10px;
+    font-size: 16px;
+}
+ p
+{margin-top: 5px;
+margin-bottom:  10px;
+margin-right: 5px;
+margin-left: 10px;
+text-align: inherit;
+font-family: sans-serif;
+padding: 10px;
+font-size: 16px;
+
+}
+head{
+    padding: 50px;
+    font-family: sans-serif;
+    text-align: start;
+    font-size: 20px;
+
+
+}
+h2{
+    font-family:  sans-serif;
+    text-align: start;
+    margin: 5px;
+    font-size: 16px;
+}
+title{
+    text-align: start;
+    font-style: italic;
+}
+nav {
+    background-color:black;
+    padding: 0.5em;
+    position: sticky;
+    top: 0;
+    line-height: 1.6em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+#showcase{
+    background-image: url('../Project/images/africa-20191216-0002.jpg');
+    background-size: cover;
+    background-position: center ;
+    background-repeat: initial;
+    min-height: 300px;
+    margin-bottom:30px;
+    text-align: center;
+}
+#showcase h1{
+    color: #fff;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 30px;
+}
+body{
+    background-color: #f4f4f4f4;
+    color: black;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-weight: bold;
+line-height: 1.6em;
+margin:0;
+width: 950px;
+}
+.block{
+    display: flex;
+    justify-content: space-between;
+    float: inline-start;
+    width: 50;
+    border: 1px solid #ccc;
+    padding: 10px;
+    
+}
+footer{
+    bottom: 0em;
+}
+.button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+.box-1{
+    background-image:url('../Project/images/images.jpg');
+    background-position: 100px 200px ;
+    background-repeat: no-repeat;
+}
+
+.box-2{
+    background-color:gray;
+    margin-top: 20px;
+}
+
+.box-3{
+    background-color:wheat;
+    margin-top: 20px;
+}
+
+.box-4{
+    background-color:white;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+    
+}
+article {
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+.box-1 h2{
+    text-decoration: underline;
+}
+.box-5{
+    
+    margin: 20px;
+    border: 20px;
+    letter-spacing:0.1em;
+    padding: 20px;
+    
+}
+.box-5 label{
+    display: block;
+}
+.box-5 input[type="text"]{
+    padding: 8px;
+    width: 100%;
+}
+.box-5 input[type="submit"]{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color:black;
+    list-style: square;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color:green ;
+}
+a:visited{
+    color: #fff;
+}.form-group{
+    background-color: silver;
+    border: 20px;
+    letter-spacing:0.1em;
+    padding: 20px;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.form-group label{
+    display: block;
+}
+.form-group input[type="text"]{
+    padding: 8px;
+    width: 100%;
+}
+.form-group input[type="submit"]{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+.button:hover{
+    background:red;
+    color: white;
+}
+h1{
+    padding: 20px;
+    margin: 20px;
+    border:20px;
+    letter-spacing: 0.1em;
+}
+
+.register{
+    background-image: url('../Project/images/africa-20190928-0001.jpg');
+    background-size: cover;
+    margin-left: 250px;
+    background-color: aqua;
+}
+.register h2{
+    color: goldenrod;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 30px;
+}
+.register-2{
+    background-color: silver;
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-bottom: 40px;
+    width: 80%;
+    border: 20px;
+    padding-bottom: 20px;
+}
+.register-2{
+    display: block;
+}
+.register-2 input[type="text"]{
+    padding: 8px;
+    width: 50%;
+}
+.register-2 input[type="submit"]{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+.socialmedia{
+    display: flex-box;
+    width: 60;
+    position: absolute;
+    text-align: start;
+    border-radius: 20%;
+    bottom: 20px;
+}
+.facebook{
+    border-radius: 30%;
+    margin: 10px;
+    width: 90%;
+    height: 90%;
+}
+.instagram{
+    border-radius: 30%;
+    margin: 10px;
+    width: 90%;
+    height: 90%;
+}
+.twitter{
+    border-radius: 30%;
+    margin: 10px;
+    width: 90%;
+    height: 90%;
+}.gmail{
+    border-radius: 30%;
+    margin: 10px;
+    width: 90%;
+    height: 90%;
+}
+.facebook:hover{
+    background:lightsteelblue;
+    color: white;
+}
+.twitter:hover{
+    background-color: lightskyblue;
+    color: white;
+}
+.instagram:hover{
+    background-color: lightcoral;
+    color: white;
+}
+.gmail:hover{
+    background-color: orangered;
+    color: white;
+}
+#site-footer{
+    background: #333;
+    color: #fff;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding-top: 1px;
+    font-size: 12px;
+    line-height: 1.6em;
+    margin-left: 10px;
+    bottom: 0px;
+    margin-top: 20px;
+
+}
+    #sitefooter ul{
+        font-size: 12px;
+    }
+    
+        
+
+
+#sitefooter h1{
+
+    font-size: 10px;
+    line-height: 1.6em;
+}
+.contact-3 p{
+    display: start;
+    text-align: center;
+    font-size: 10px;
+    line-height: 1.6em;
+    bottom: 0px;
+}
+.double{
+    display: flex;
+    justify-content: space-between;
+    float: inline-start;
+    width: 50;
+    border: 1px solid #ccc;
+    padding: 10px;
+    letter-spacing: 0.1em;
+    
+}
