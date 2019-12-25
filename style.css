@@ -59,7 +59,7 @@ nav a {
     padding-right: 15px;
 }
 #showcase{
-    background-image: url('../Websitenew/images/africa-20191216-0002.jpg');
+    background-image: url(../Websitenew/images/1420630-africa-wallpaper-1920x1080-mobile.jpg);
     background-size: cover;
     background-position: center ;
     background-repeat: initial;
@@ -74,7 +74,7 @@ nav a {
     padding-top: 30px;
 }
 body{
-    background-color: #f4f4f4f4;
+    background-color: #f4f4f4;
     color: black;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 16px;
@@ -172,6 +172,7 @@ a:active{
 a:visited{
     color: #fff;
 }.form-group{
+    background-image: url(../Websitenew/images/popular-professional-desktop-wallpaper-1920x1200.jpg);
     background-color: silver;
     border: 20px;
     letter-spacing:0.1em;
@@ -205,7 +206,7 @@ h1{
 }
 
 .register{
-    background-image: url('../Project/images/africa-20190928-0001.jpg');
+    background-image: url(../Websitenew/images/popular-professional-desktop-wallpaper-1920x1200.jpg);
     background-size: cover;
     margin-left: 250px;
     background-color: aqua;
@@ -217,6 +218,7 @@ h1{
     padding-top: 30px;
 }
 .register-2{
+    background-image: url(../Websitenew/images/popular-professional-desktop-wallpaper-1920x1200.jpg);
     background-color: silver;
     margin-top: 20px;
     margin-left: 90px;
@@ -286,7 +288,8 @@ h1{
     color: white;
 }
 #site-footer{
-    background: #333;
+    background-image: url(../Websitenew/images/1414915-professional-desktop-wallpaper-1920x1080-for-hd-1080p.jpg);
+    background-size: cover;
     color: #fff;
     width: 100%;
     border: 1px solid #ccc;
